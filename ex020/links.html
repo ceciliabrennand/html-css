@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a{
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: chocolate;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+        }
+
+        a:active{
+            color:cyan;
+        }
+
+        .especial::before{
+            content: '✶ ';
+        }
+
+        .especial::after{
+            content: ' ✶';
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://x.com/gunsforvoices">Twitter</a></li>
+        <li><a href="https://www.instagram.com/ceciliabrennand/">Linkedin</a></li>
+        <li><a href="https://www.linkedin.com/in/ceciliabrennand/" class="especial">Instagram</a></li>
+    </ul>
+</body>
+</html>

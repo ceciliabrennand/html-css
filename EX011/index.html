@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <h1>Agora vamos aprender a inserir audio</h1>
+    
+<!--<audio src="midia/lany - nobodyelse.mp3" controls autoplay></audio> ficaria assim se fosse do modo mais fácil, mas não funcionaria em todos os navegadores-->
+
+<audio preload="auto" autoplay controls>
+    <source src="midia/lany - nobodyelse.mp3" type="audio/mpeg">
+    <source src="midia/lany - nobodyelse.ogg" type="audio/ogg">
+    <source src="midia/lany - nobodyelse.wav" type="audio/wav">
+    <p>Infelizmente, não ta funcionando automaticamente, então você pode baixar <a href="midia/lany - nobodyelse.mp3">clicando aqui</a></p>
+</audio>
+
+</body>
+</html>

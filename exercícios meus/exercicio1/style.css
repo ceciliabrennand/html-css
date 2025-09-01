@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    font-size: 12px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+main > h1{
+    border: 10px;
+    border-style: solid;
+    padding: 5px;
+    border-color: rgb(211, 162, 170);
+    background-color: pink;
+    color: azure;
+
+}
+
+main > p{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+main:hover > p{
+    background-color: pink;
+    width: 200px;
+    margin: 0 auto;
+    font-style: italic;
+
+}
+
+.vi{
+    text-align: center;
+    font-size: 14px;
+}
+
+img{
+    display: none;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.vi:active{
+    color: blue;
+}
+
+.vi:active > img{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}

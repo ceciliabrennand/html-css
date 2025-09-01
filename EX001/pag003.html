@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Paris em diferentes tamanhos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aqui temos uma linda foto de Paris que se adapta ao navegador</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="parispequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="parismedia.jpg" type="image/jpg">
+        <img src="parisgrande.jpg" alt="paris grande">
+    </picture>
+    <audio controls>
+       <source src="midia/lefestin.mp3" type="audio/mpeg">
+    </audio>
+    <p>É isso te amo!</p>
+    <p><a href="index.html">Clique aqui</a> para voltar para a página inicial.</p>
+</body>
+</html>

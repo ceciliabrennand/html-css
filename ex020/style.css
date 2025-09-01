@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(67, 37, 23);
+}
+
+.linha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.linha div {
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    color: chocolate;
+    margin: 5px;
+    position: relative;
+}
+
+.linha img {
+    width: 120px;
+    display: none;
+}
+
+.gato:hover img {
+    display: block; 
+    width: 200px;
+}
+
+.linha div:hover{
+background-color: bisque;
+color: bisque;
+}

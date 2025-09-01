@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+font-family: 'Libertinus Sans', sans-serif;
+background-color: #ededed;
+margin: 0px;
+}
+
+#nome{
+    text-align: center;
+    background-color: #91CB3E;
+}
+
+.nome{
+    display: inline-block;
+    color: #19381F;
+    
+}
+
+.imgheader{
+    display: inline-block;
+    width: 90px;
+}
+
+header{
+    text-align: right;
+    background-color: #19381F;
+    height: 30px;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+main{
+    margin: 10px;
+    width: 550px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    color: #19381F;
+
+}
+
+main > p{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    background-color: #53A548;
+    width: 700px;
+    border: 7px solid #19381F;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+
+.opcoes{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.opcoes > img{
+    width: 200px;
+}
+
+.opcoes:hover > h3{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background-color: #19381F;
+    color: white;
+    width: 170px;
+    font-size: 13px;
+    margin: auto;
+}

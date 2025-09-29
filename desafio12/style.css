@@ -34,7 +34,7 @@ header a:hover{
 }
 
 article{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 70px 0px 70px 30px;
     padding-left: 30px;
     line-height: 50px;
@@ -50,9 +50,10 @@ article{
     
 }
 
-#article2 > P{
+#article2 > p{
     background-color: rgba(0, 0, 0, 0.308);
     width: 460px;
+    padding: 5px;
 }
 
 #article4{
@@ -60,11 +61,13 @@ article{
     background-size: cover;
     color: white;
     background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
 }
 
-#article4 > P{
+#article4 > p{
     background-color: rgba(0, 0, 0, 0.308);
     width: 460px;
+    padding: 5px;
 }
 
 footer{

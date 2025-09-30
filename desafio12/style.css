@@ -57,21 +57,23 @@ section{
     font-style: italic;
 }
 
+.imagem{
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.319);
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+    background-color: black;
+}
+
 #imagem1{
     background-image: url('imagens/background001.jpg');
-    background-color: black;
-    background-size: cover;
-    color: white;
-    background-attachment: fixed;
+    background-position: right center;
     
 }
 
 #imagem2{
     background-image: url('imagens/background002.jpg');
-    background-color: black;
-    background-size: cover;
-    color: white;
-    background-attachment: fixed;
+
     text-shadow: 1px 1px 1px black;
 }
 

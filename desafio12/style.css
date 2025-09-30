@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --fonte: Verdana, Geneva, sans-serif;
+    --fonte1: 'Passion One', sans-serif;
+    --fonte2: 'Caveat', cursive;
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -11,13 +20,13 @@ html, body{
 
 header{
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte1);
     color: white;
     text-align: center;
 }
 
 header > h1{
-    font-size: 80px;
+    font-size: 10vw;
     font-variant: small-caps;
     padding-top: 50px;
 }
@@ -25,6 +34,7 @@ header > h1{
 header > h2{
     font-size: 15px;
     padding-bottom: 50px;
+    font-family: var(--fonte);
 }
 
 header a{
@@ -37,12 +47,12 @@ header a:hover{
 }
 
 section{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte2);
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 5vh;
     line-height: 60px;
-    font-size: 30px;
+    font-size: 3.5vw;
     font-weight: bold;
     font-style: italic;
 }
@@ -66,9 +76,9 @@ section{
 }
 
 .imagem > p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.308);
-    width: 460px;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer{

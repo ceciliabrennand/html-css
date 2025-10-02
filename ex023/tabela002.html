@@ -9,6 +9,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -24,13 +25,18 @@
         }
 
         tbody > tr:nth-child(2n){
-            background-color: rgba(128, 128, 128, 0.59);
+            background-color: lightgrey;
         }
-
 
         thead, tfoot{
             background-color: grey;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
         }
 
         .num{

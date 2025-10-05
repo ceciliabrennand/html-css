@@ -11,7 +11,8 @@
         }
 
         table{
-            width: 600px;
+            width: 450px;
+            height: 400px;
             border-collapse: collapse;
         }
 
@@ -23,6 +24,11 @@
         thead th{
             background-color: grey;
             color: white;
+        }
+
+        .thhead{
+            padding: 5px;
+            height: 30px;
         }
 
         .nota, .notamedia{
@@ -49,14 +55,14 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2" scope="col">Área</th>
-                <th rowspan="2" scope="col">Disciplinas</th>
-                <th colspan="2" scope="colgroup">Notas</th>
-                <th rowspan="2" scope="col">Média</th>
+                <th rowspan="2" scope="col" class="thhead">Área</th>
+                <th rowspan="2" scope="col" class="thhead">Disciplinas</th>
+                <th colspan="2" scope="colgroup" class="thhead">Notas</th>
+                <th rowspan="2" scope="col" class="thhead">Média</th>
             </tr>
             <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
+                <th class="thhead">Nota 1</th>
+                <th class="thhead">Nota 2</th>
             </tr>
         </thead>
         <tbody>

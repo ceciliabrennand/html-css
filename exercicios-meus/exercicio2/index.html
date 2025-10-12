@@ -41,7 +41,31 @@
             text-align: center;
         }
 
+        div#form{
+            margin: auto;
+            margin-top: 50px;
+            background-color: bisque;
+            width: 400px;
+            border: 5px solid rgb(255, 211, 156);
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.177);
+        }
 
+        div > h1{
+            text-align: center;
+            text-decoration: underline;
+            font-size: 20px;
+        }
+
+        p.titulo{
+            text-align: center;
+            padding-left: 0px;
+        }
+
+        div > p{
+            padding-left: 10px;
+        }
+            
 
     </style>
 </head>
@@ -95,21 +119,26 @@
             </tr>
         </tbody>
     </table>
-    <h1>Agora é a sua vez!</h1>
-    <p>Responda ao formulário com o seu jogo favorito.</p>
-    <form action="formulario.php" method="get"></form>
-    <p>
-        <label for="inome">Nome</label>
-        <input type="text" name="nome" id="inome">
-    </p>
-    <p>
-        <label for="iano">Ano</label>
-        <input type="number" name="ano" id="iano">
-    </p>
-    <p>
-        <label for="ipersonagem">Personagem favorito</label>
-        <input type="text" name="Personagem" id="ipersonagem">
-    </p>
+    <div id="form">
+        <h1>Agora é a sua vez!</h1>
+        <p class="titulo">Responda o formulário com o seu jogo favorito.</p>
+        <form action="formulario.php" method="get"></form>
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="Nome do jogo">
+        </p>
+        <p>
+            <label for="iano">Ano:</label>
+            <input type="number" name="ano" id="iano" placeholder="Ano de lançamento">
+        </p>
+        <p>
+            <label for="ipersonagem">Personagem favorito:</label>
+            <input type="text" name="Personagem" id="ipersonagem" placeholder="Seu personagem favorito">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </div>
 
 
 </body>

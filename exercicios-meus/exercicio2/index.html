@@ -4,141 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus jogos favoritos</title>
-
-    <style>
-        *{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        table{
-            margin: auto;
-            border-collapse: collapse;
-            width: 500px;
-
-        }
-
-        caption{
-            padding: 5px;
-            font-weight: bolder;
-            text-decoration: underline;
-        }
-
-        thead th{
-            text-align: center;
-            background-color: lightgray;
-        }
-
-        th, td{
-            border: 1px solid black;
-            padding: 5px;
-        }
-
-        tbody > tr:nth-child(2n){
-            background-color: lightgray;
-        }
-
-        td.posicao{
-            text-align: center;
-        }
-
-        div#form{
-            margin: auto;
-            margin-top: 50px;
-            background-color: bisque;
-            width: 400px;
-            border: 5px solid rgb(255, 211, 156);
-            border-radius: 10px;
-            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.177);
-        }
-
-        div > h1{
-            text-align: center;
-            text-decoration: underline;
-            font-size: 20px;
-        }
-
-        p.titulo{
-            text-align: center;
-            padding-left: 0px;
-        }
-
-        div > p{
-            padding-left: 10px;
-        }
-            
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <table>
-        <caption>Meus jogos favoritos</caption>
-        <thead>
-            <tr>
-                <th class="posicao" scope="col">Posição</td>
-                <th scope="col">Nome</td>
-                <th scope="col">Ano</td>
-                <th scope="col">Personagem favorito</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="posicao">1</td>
-                <td>Cyberpunk 2077</td>
-                <td>2020</td>
-                <td>Valerie/Vi</td>
-            </tr>
-            <tr>
-                <td class="posicao">2</td>
-                <td>Expedition 33</td>
-                <td>2025</td>
-                <td>Lune</td>
-            </tr>
-            <tr>
-                <td class="posicao">3</td>
-                <td>Red Dead Redemption 2</td>
-                <td>2018</td>
-                <td>Arthur</td>
-            </tr>
-            <tr>
-                <td class="posicao">4</td>
-                <td>Life is Strange</td>
-                <td>2015</td>
-                <td>Chloe</td>
-            </tr>
-            <tr>
-                <td class="posicao">5</td>
-                <td>Tomb Raider Definitive Edition</td>
-                <td>2014</td>
-                <td>Lara Croft</td>
-            </tr>
-            <tr>
-                <td class="posicao">6</td>
-                <td>Battlefield 1</td>
-                <td>2016</td>
-                <td>Sniper</td>
-            </tr>
-        </tbody>
-    </table>
-    <div id="form">
-        <h1>Agora é a sua vez!</h1>
-        <p class="titulo">Responda o formulário com o seu jogo favorito.</p>
-        <form action="formulario.php" method="get"></form>
-        <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" placeholder="Nome do jogo">
-        </p>
-        <p>
-            <label for="iano">Ano:</label>
-            <input type="number" name="ano" id="iano" placeholder="Ano de lançamento">
-        </p>
-        <p>
-            <label for="ipersonagem">Personagem favorito:</label>
-            <input type="text" name="Personagem" id="ipersonagem" placeholder="Seu personagem favorito">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-        </p>
-    </div>
+    <main>
+        <table>
+            <caption>Meus jogos favoritos</caption>
+            <thead>
+                <tr>
+                    <th class="posicao" scope="col">Posição</td>
+                    <th scope="col">Nome</td>
+                    <th scope="col">Ano</td>
+                    <th scope="col">Personagem favorito</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="posicao">1</td>
+                    <td>Cyberpunk 2077</td>
+                    <td>2020</td>
+                    <td>Valerie/Vi</td>
+                </tr>
+                <tr>
+                    <td class="posicao">2</td>
+                    <td>Expedition 33</td>
+                    <td>2025</td>
+                    <td>Lune</td>
+                </tr>
+                <tr>
+                    <td class="posicao">3</td>
+                    <td>Red Dead Redemption 2</td>
+                    <td>2018</td>
+                    <td>Arthur</td>
+                </tr>
+                <tr>
+                    <td class="posicao">4</td>
+                    <td>Life is Strange</td>
+                    <td>2015</td>
+                    <td>Chloe</td>
+                </tr>
+                <tr>
+                    <td class="posicao">5</td>
+                    <td>Tomb Raider Definitive Edition</td>
+                    <td>2014</td>
+                    <td>Lara Croft</td>
+                </tr>
+                <tr>
+                    <td class="posicao">6</td>
+                    <td>Battlefield 1</td>
+                    <td>2016</td>
+                    <td>Sniper</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="form">
+            <h1>Agora é a sua vez!</h1>
+            <p class="titulo">Responda o formulário com o seu jogo favorito.</p>
+            <form action="formulario.php" method="get"></form>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Nome do jogo">
+            </p>
+            <p>
+                <label for="iano">Ano:</label>
+                <input type="number" name="ano" id="iano" placeholder="Ano de lançamento">
+            </p>
+            <p>
+                <label for="ipersonagem">Personagem favorito:</label>
+                <input type="text" name="Personagem" id="ipersonagem" placeholder="Seu personagem favorito">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </div>
+    </main>
 
 
 </body>

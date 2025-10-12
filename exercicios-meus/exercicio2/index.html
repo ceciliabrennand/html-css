@@ -12,24 +12,86 @@
 
         table{
             margin: auto;
-            
+            border-collapse: collapse;
+            width: 500px;
 
+        }
+
+        caption{
+            padding: 5px;
+        }
+
+        thead td{
+            text-align: center;
+            background-color: lightgray;
         }
 
         tr, td{
             border: 1px solid black;
+            padding: 5px;
         }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        td.posicao{
+            text-align: center;
+        }
+
+
 
     </style>
 </head>
 <body>
     <table>
         <caption>Meus jogos favoritos</caption>
-        <tr>
-            <td>Posição</td>
-            <td>Nome</td>
-            <td>Personagem favorito</td>
-        </tr>
+        <thead>
+            <tr>
+                <td class="posicao">Posição</td>
+                <td>Nome</td>
+                <td>Ano</td>
+                <td>Personagem favorito</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="posicao">1</td>
+                <td>Cyberpunk 2077</td>
+                <td>2020</td>
+                <td>Valerie/Vi</td>
+            </tr>
+            <tr>
+                <td class="posicao">2</td>
+                <td>Expedition 33</td>
+                <td>2025</td>
+                <td>Lune</td>
+            </tr>
+            <tr>
+                <td class="posicao">3</td>
+                <td>Red Dead Redemption 2</td>
+                <td>2018</td>
+                <td>Arthur</td>
+            </tr>
+            <tr>
+                <td class="posicao">4</td>
+                <td>Life is Strange</td>
+                <td>2015</td>
+                <td>Chloe</td>
+            </tr>
+            <tr>
+                <td class="posicao">5</td>
+                <td>Tomb Raider Definitive Edition</td>
+                <td>2014</td>
+                <td>Lara Croft</td>
+            </tr>
+            <tr>
+                <td class="posicao">6</td>
+                <td>Battlefield 1</td>
+                <td>2016</td>
+                <td>Sniper</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>

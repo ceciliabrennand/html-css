@@ -19,14 +19,16 @@
 
         caption{
             padding: 5px;
+            font-weight: bolder;
+            text-decoration: underline;
         }
 
-        thead td{
+        thead th{
             text-align: center;
             background-color: lightgray;
         }
 
-        tr, td{
+        th, td{
             border: 1px solid black;
             padding: 5px;
         }
@@ -48,10 +50,10 @@
         <caption>Meus jogos favoritos</caption>
         <thead>
             <tr>
-                <td class="posicao">Posição</td>
-                <td>Nome</td>
-                <td>Ano</td>
-                <td>Personagem favorito</td>
+                <th class="posicao" scope="col">Posição</td>
+                <th scope="col">Nome</td>
+                <th scope="col">Ano</td>
+                <th scope="col">Personagem favorito</td>
             </tr>
         </thead>
         <tbody>

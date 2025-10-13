@@ -59,24 +59,37 @@
             </tbody>
         </table>
         <div id="form">
-            <h1>Agora é a sua vez!</h1>
-            <p class="titulo">Responda o formulário com o seu jogo favorito.</p>
-            <form action="formulario.php" method="get"></form>
-            <p>
-                <label for="inome">Nome:</label>
-                <input type="text" name="nome" id="inome" placeholder="Nome do jogo">
-            </p>
-            <p>
-                <label for="iano">Ano:</label>
-                <input type="number" name="ano" id="iano" placeholder="Ano de lançamento">
-            </p>
-            <p>
-                <label for="ipersonagem">Personagem favorito:</label>
-                <input type="text" name="Personagem" id="ipersonagem" placeholder="Seu personagem favorito">
-            </p>
-            <p>
-                <input type="submit" value="Enviar">
-            </p>
+            <fieldset>
+                <h1>Agora é a sua vez!</h1>
+                <p class="titulo">Responda o formulário com o seu jogo favorito.</p>
+                <form action="formulario.php" method="get"></form>
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" placeholder="Nome do jogo">
+                </p>
+                <p>
+                    <label for="iano">Ano:</label>
+                    <input type="number" name="ano" id="iano" placeholder="Ano de lançamento">
+                </p>
+                <p>
+                    <label for="ipersonagem">Personagem favorito:</label>
+                    <input type="text" name="Personagem" id="ipersonagem" placeholder="Seu personagem favorito">
+                </p>
+                <p class="jogos"> Qual desses você prefere? </p>
+                    <p>
+                        <input type="radio" name="jogo" id="icyber"><label for="icyber">Cyberpunk 2077</label>
+                        <input type="radio" name="jogo" id="iexp"><label for="iexp">Expedition 33</label> <br>
+                        <input type="radio" name="jogo" id="ired"><label for="ired">Red Dead Redemption 2</label>
+                        <input type="radio" name="jogo" id="ilis"><label for="ilis">Life is Strange</label> <br>
+                        <input type="radio" name="jogo" id="itomb"><label for="itomb">Tomb Raider</label>
+                        <input type="radio" name="jogo" id="ibf"><label for="ibf">Battlefield 1</label> <br>
+                    </p>
+
+                
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </fieldset>
         </div>
     </main>
 

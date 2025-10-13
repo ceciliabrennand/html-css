@@ -78,3 +78,10 @@
         p.jogos{
             margin-top: 10px;
         }
+
+        main > p{
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }

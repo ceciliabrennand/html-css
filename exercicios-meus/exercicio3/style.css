@@ -11,6 +11,7 @@ h1{
 table{
     width: 600px;
     border-collapse: collapse;
+    margin: auto;
 }
 
 th, td{
@@ -23,3 +24,8 @@ th{
     height: 45px;
     background-color: rgb(255, 205, 112);
 }
+
+tbody > tr:nth-child(2n){
+    background-color: lightgrey;
+}
+

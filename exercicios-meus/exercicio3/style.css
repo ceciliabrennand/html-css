@@ -8,7 +8,12 @@ h1{
     text-align: center;
 }
 
+#conteiner{
+    display: flex;
+}
+
 table{
+    flex-direction: row;
     width: 600px;
     border-collapse: collapse;
     margin: auto;

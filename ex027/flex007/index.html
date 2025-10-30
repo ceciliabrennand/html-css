@@ -10,6 +10,8 @@
             
             display: flex;
             flex-flow: row wrap;
+            align-items: flex-start;
+            height: 400px;
         }
 
         div.item{
@@ -20,31 +22,32 @@
         }
 
         div#i1{
-            order: 2;
+            align-self: auto;
         }
 
         div#i2{
-            order: 4;
+            align-self: auto;
         }
     
         div#i3{
-            order: 3;
+            align-self: auto;
         }
         
         div#i4{
-            order: -3;
+            align-self: flex-end;
         }
         
         div#i5{
-            order: 8;
+            align-self: center;
         }
         
         div#i6{
-            order: -4;
+            align-self: auto;
         }
         
         div#i7{
-            order: 1;
+            align-self: stretch;
+            
         }
 
     </style>

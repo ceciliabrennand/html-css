@@ -22,25 +22,24 @@ body{
 
 main{
     background-color: white;
-    margin: auto;
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
 }
 
 section#tudo{
-    position: absolute;
+    
     background-color: white;
-    width: 360px;
-    height: 90vh;
-    top: 50%;
-    left: 50%;
+    height: 90%;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.13);
 
-    transform: translate(-50%, -50%);
+    
 }
 
 div#imagem{
-    display: block;
+    
     background: var(--cor2) url(../imagens/predios.jpg);
     background-size: cover;
     height: 40%;
@@ -48,7 +47,7 @@ div#imagem{
 }
 
 div#formulario{
-    display: block;
+    
     height: 55%;
 }
 

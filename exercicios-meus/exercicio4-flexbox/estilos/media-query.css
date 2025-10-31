@@ -2,7 +2,8 @@
 
 @media screen and (min-width:992px) {
     section#tudo{
-        width: 980px;
+        width: 1000px;
+        max-width: none; /*tive que colocar porque no estilo geral tem max-width*/
         height: 70vh;
     }
 
@@ -14,10 +15,10 @@
 
     div#formulario{
         float: right;
-        width: 60%;
         height: 100%;  
-
-        transform: translateY(18%);
+        width: 60%;
+        
+        transform: translateY(10%);
     }
 
     div#formulario > h1{

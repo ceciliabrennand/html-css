@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento Mirante da Várzea</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="tudo">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>Vai emprestar sua vaga para alguém?</h1>
+                <p>Preencha o formulário com as informações para o porteiro liberar a entrada.</p>
+                <form action="vagas.php" method="get">
+                    <div class="info" >
+                        <label for="inome">Nome:</label>
+                        <input id="nome" type="text" name="nome" id="inome" required placeholder="Seu nome"> <br>
+                    </div>
+                    <div class="info">
+                        <label for="iapto">Apto:</label>
+                        <input id="apto" type="number" name="apto" id="iapto" required placeholder="Número da vaga"> <br>
+                    </div>
+                    <div class="info">
+                        <label for="icarro">Carro:</label>
+                        <input id="carro" type="text" name="carro" id="icarro" required placeholder="Modelo e placa"> <br>
+                    </div>
+                    <div class="info">
+                        <label for="idata">Data:</label>
+                        <input id="data" type="date" name="data" id="idata">
+                    </div>
+                    <input id="enviar" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

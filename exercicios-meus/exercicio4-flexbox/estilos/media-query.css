@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px) {
+    section#tudo{
+        width: 980px;
+        height: 70vh;
+    }
+
+    div#imagem{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+
+    div#formulario{
+        float: right;
+        width: 60%;
+        height: 100%;  
+
+        transform: translateY(18%);
+    }
+
+    div#formulario > h1{
+    font-size: 30px;
+    }
+
+    div#formulario > p{
+    font-size: 20px;
+    padding-bottom: 15px;
+
+    }
+
+    div.info{
+        width: 500px;
+    }
+
+    div.info > input{
+        width: 421px;
+    }
+
+    input#enviar{
+        width: 80px;
+        margin-left: 470px;
+    }
+}

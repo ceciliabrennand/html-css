@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cor1: #C9DFF5;
+    --cor2: #4A7DA5;
+    --cor3: #5A89AD;
+    --cor4: #1B1B1E;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+}
+
+section#tudo{
+    position: absolute;
+    background-color: white;
+    width: 360px;
+    height: 90vh;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.13);
+
+    transform: translate(-50%, -50%);
+}
+
+div#imagem{
+    display: block;
+    background: var(--cor2) url(../imagens/predios.jpg);
+    background-size: cover;
+    height: 40%;
+
+}
+
+div#formulario{
+    display: block;
+    height: 55%;
+}
+
+div#formulario > h1{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+div#formulario > p{
+    text-align: center;
+    font-size: 13px;
+    padding: 0px 10px 10px 10px
+
+}
+
+div.info{
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 320px;
+    background-color: var(--cor4);
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+div.info > label{
+    padding-left: 10px;
+}
+
+div.info > input{
+    height: 30px;
+    width: 241px;
+    margin: auto;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: var(--cor1);
+}
+
+input#nome{
+    margin-left: 5px;
+}
+
+input#apto{
+    margin-left: 16px;
+}
+
+input#carro{
+    margin-left: 11px;
+}
+
+input#data{
+    margin-left: 16px;
+}
+
+input#enviar{
+    display: block;
+    margin-left: 280px;
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--cor2);
+    color: white;
+    font-weight: bold;
+}
+
+input#enviar:hover{
+    background-color: var(--cor3);
+}

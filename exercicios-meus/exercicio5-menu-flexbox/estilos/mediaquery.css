@@ -1,10 +1,21 @@
 @charset "UTF-8";
-
-@media screen and (max-width: 520px) {
     
+header, header > nav{
+    flex-flow: column nowrap;
+}
+
+header > h1{
+    flex-basis: 50px;
+}
+
+header > nav > a{
+        width: 90vw;
+        text-align: center;
+    }
+
+
+/* outra forma que eu tinha feito e também ficou bom:
 nav > a{
     flex-basis: 500px;
     text-align: center;
-}
-
-}
+}/*

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 520px) {
+    
+nav > a{
+    flex-basis: 500px;
+    text-align: center;
+}
+
+}

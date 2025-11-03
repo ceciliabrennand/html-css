@@ -14,11 +14,12 @@ body{
 
 header{
     background-color: grey;
-    height: 100px;
-    padding-left: 8px;
+    padding: 10px;
 
     display: flex;
-    flex: column wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1{
@@ -26,13 +27,15 @@ header > h1{
     padding: 5px;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.496);
 
-    
+    flex: 0 0 200px
 }
 
 header > nav{
     padding-top: 10px;
-    align-items: flex-end;
-    flex-basis: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 nav > a{

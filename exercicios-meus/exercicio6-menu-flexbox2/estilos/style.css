@@ -23,9 +23,22 @@ main > section.flexcontent{
 
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
+main > section > article.media-text{
+    display: flex;
+    flex-flow: row nowrap;
 
+    
+}
+
+main > section > article.text-media{
+    display: flex;
+    flex-flow: row nowrap;
+
+    flex-basis: 1250px;
+}
 
 main > section.normal{
     padding: 10px;

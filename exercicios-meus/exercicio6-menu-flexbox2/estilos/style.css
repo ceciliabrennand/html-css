@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1{
+    padding: 10px;
+}
+
+header > p{
+    padding: 10px;
+}
+
+main > section.flexcontent{
+    background-color: lightgray;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+main > section.normal{
+    padding: 10px;
+}

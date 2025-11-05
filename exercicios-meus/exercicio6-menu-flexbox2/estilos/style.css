@@ -23,21 +23,21 @@ main > section.flexcontent{
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 main > section > article.media-text{
     display: flex;
     flex-flow: row-reverse wrap;
-    
+    justify-content: space-evenly;
 }
 
-main > section > article > div.text{
+main > section > article > div.text1{
     order: 1;
     flex-basis: 50%;
 }
 
-main > section > article > div.media{
+main > section > article > div.media1{
     order: 0;
     flex-basis: 50%;
     text-align: center;
@@ -45,9 +45,17 @@ main > section > article > div.media{
 
 main > section > article.text-media{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
 
-    flex-basis: 1250px;
+main > section > article > div.text2{
+    flex-basis: 50%;
+}
+
+main > section > article > div.media2{
+    flex-basis: 50%;
+    text-align: center;
 }
 
 main > section.normal{

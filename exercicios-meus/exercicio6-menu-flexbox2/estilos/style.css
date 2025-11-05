@@ -34,12 +34,12 @@ main > section > article.media-text{
 
 main > section > article > div.text1{
     order: 1;
-    flex-basis: 50%;
+    
 }
 
 main > section > article > div.media1{
     order: 0;
-    flex-basis: 50%;
+    
     text-align: center;
 }
 
@@ -49,13 +49,15 @@ main > section > article.text-media{
     justify-content: space-evenly;
 }
 
-main > section > article > div.text2{
-    flex-basis: 50%;
+main > section > article > div.media2{
+    text-align: center;
 }
 
-main > section > article > div.media2{
-    flex-basis: 50%;
-    text-align: center;
+main > section > article > div.text1,
+main > section > article > div.media1,
+main > section > article > div.text2,
+main > section > article > div.media2 {
+    flex: 1 1 500px; /* pode ajustar o 500px conforme quiser */
 }
 
 main > section.normal{

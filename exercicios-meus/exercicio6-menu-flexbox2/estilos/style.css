@@ -28,9 +28,19 @@ main > section.flexcontent{
 
 main > section > article.media-text{
     display: flex;
-    flex-flow: row nowrap;
-
+    flex-flow: row-reverse wrap;
     
+}
+
+main > section > article > div.text{
+    order: 1;
+    flex-basis: 50%;
+}
+
+main > section > article > div.media{
+    order: 0;
+    flex-basis: 50%;
+    text-align: center;
 }
 
 main > section > article.text-media{

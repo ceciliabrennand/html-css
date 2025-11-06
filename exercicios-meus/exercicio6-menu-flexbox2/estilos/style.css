@@ -60,6 +60,10 @@ main > section > article > div.media2 {
     flex: 1 1 500px; /* pode ajustar o 500px conforme quiser */
 }
 
+iframe{
+    width: 90%;
+}
+
 main > section.normal{
     padding: 10px;
 }

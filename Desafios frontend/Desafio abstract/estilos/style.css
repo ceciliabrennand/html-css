@@ -31,8 +31,20 @@ header{
     padding: 0 70px;
 }
 
-header > a{
-    border: 5px solid white;
+header p{
+    font-size: 12px;
+}
+
+header a{
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px 15px;
+    font-size: 12px;
+}
+
+a#sign-in{
+    background-color: var(--cor1);
+    border: 2px solid var(--cor1);
 }
 
 a{
@@ -55,6 +67,10 @@ main{
 main > article{
     padding-bottom: 50px;
 
+}
+
+main > article > summary{
+    color: var(--cor1);
 }
 
 footer{

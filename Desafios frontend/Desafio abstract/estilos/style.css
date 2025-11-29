@@ -35,6 +35,15 @@ header p{
     font-size: 12px;
 }
 
+#icone-header{
+    background-color: var(--cor4);
+    color: var(--cor3);
+    border: 3px solid var(--cor4);
+    border-radius: 6px;
+    height: 12px;
+    padding: 3px;
+}
+
 header a{
     border: 1px solid white;
     border-radius: 6px;
@@ -42,18 +51,30 @@ header a{
     font-size: 12px;
 }
 
-a#sign-in{
-    background-color: var(--cor1);
-    border: 2px solid var(--cor1);
-}
-
 a{
     color: white;
     text-decoration: none;
 }
 
+
+a#sign-in{
+    background-color: var(--cor1);
+    border: 2px solid var(--cor1);
+}
+
+a#sign-in:hover{
+    background-color: #5f6fd6;
+    border: 2px solid #5f6fd6;
+}
+
+a#submit:hover{
+    background-color: var(--cor4);
+    color: var(--cor3);
+}
+
 div#searchbar{
     background-color: var(--cor2);
+    height: 250px;
 }
 
 main{

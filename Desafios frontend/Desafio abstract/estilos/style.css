@@ -31,18 +31,21 @@ header{
     padding: 0 70px;
 }
 
-header p{
+header > p{
     font-size: 12px;
 }
 
-#icone-header{
+header > p > i{
     background-color: var(--cor4);
     color: var(--cor3);
     border: 3px solid var(--cor4);
     border-radius: 6px;
     height: 12px;
     padding: 3px;
+    margin-right: 3px;
 }
+
+
 
 header a{
     border: 1px solid white;
@@ -73,8 +76,31 @@ a#submit:hover{
 }
 
 div#searchbar{
+    display: flex;
+    flex-flow: column;
     background-color: var(--cor2);
     height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+div#searchbar h1{
+    font-size: 2.8em;
+    font-weight: normal;
+}
+
+div#searchbar input#isearch{
+    margin-top: 15px;
+    padding-left: 7px;
+    min-width: 400px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+i#arrow{
+    transform: translate(-160%, 8%);
 }
 
 main{

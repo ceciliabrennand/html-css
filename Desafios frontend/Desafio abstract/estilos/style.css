@@ -82,6 +82,7 @@ div#searchbar{
     height: 250px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 div#searchbar h1{
@@ -106,17 +107,29 @@ i#arrow{
 main{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
     background-color: var(--cor4);
     color: var(--cor3);
-    padding: 100px;
+    
 }
 
 main > article{
     padding-bottom: 50px;
-
+    flex-basis: 400px;
 }
 
-main > article > summary{
+main > article > h5{
+    font-size: 1.1em;
+    padding-bottom: 18px;
+}
+
+main > article > summary > a{
+    color: var(--cor1);
+}
+
+
+#arrow-summary{
+    transform: translate(-20%, 30%);
     color: var(--cor1);
 }
 

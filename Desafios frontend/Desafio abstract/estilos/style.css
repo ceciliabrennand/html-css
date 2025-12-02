@@ -134,6 +134,35 @@ main > article > summary > a{
 }
 
 footer{
+    display: flex;
+    flex-flow: row wrap;
     background-color: var(--cor3);
     color: var(--cor4);
+}
+
+footer div.footer{
+    margin: 30px 60px;
+}
+
+footer h5{
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+footer a{
+    font-size: 12px;
+}
+
+div.footer p{
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+aside > p{
+    font-size: 12px;
+}
+
+#copyright{
+    font-size: 12px;
 }

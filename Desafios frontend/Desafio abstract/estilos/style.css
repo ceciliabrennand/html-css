@@ -118,12 +118,12 @@ main > article{
     flex-basis: 400px;
 }
 
-main > article > h5{
+main > article > div.texto > h5{
     font-size: 1.1em;
     padding-bottom: 18px;
 }
 
-main > article > summary > a{
+main > article > div.texto > summary > a{
     color: var(--cor1);
 }
 

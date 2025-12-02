@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    header{
+        flex-flow: row nowrap;
+        height: 90px;
+        justify-content: space-between;
+    }
+
+    header > nav{
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+
+    header > nav > a#submit{
+        margin-bottom: 6px;
+    }
+
+    div#searchbar{
+        height: 200px;
+    }
+
+    div#searchbar h1{
+        font-size: 2em;
+    }
+
+    div#searchbar input#isearch{
+        min-width: 350px;
+    }
+
+    main{
+        flex-flow: column wrap;
+    }
+
+    main > article{
+        flex-basis: auto;
+        margin: 0px 30px 0px 30px
+    }
+
+    footer > div.footer{
+        min-width: 107px;
+    }
+
+    footer > aside{
+        padding-bottom: 0px;
+    }
+}

@@ -86,15 +86,15 @@ div#searchbar{
 }
 
 div#searchbar h1{
-    font-size: 2.8em;
+    font-size: 4em;
     font-weight: normal;
 }
 
 div#searchbar input#isearch{
     margin-top: 15px;
     padding-left: 7px;
-    min-width: 400px;
-    height: 35px;
+    min-width: 600px;
+    height: 50px;
     border: 1px solid black;
     border-radius: 3px;
     font-size: 13px;
@@ -127,6 +127,10 @@ main > article > summary > a{
     color: var(--cor1);
 }
 
+main > article > summary > a:hover{
+    text-decoration: underline;
+}
+
 
 #arrow-summary{
     transform: translate(-20%, 30%);
@@ -136,6 +140,8 @@ main > article > summary > a{
 footer{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 300px;
     background-color: var(--cor3);
     color: var(--cor4);
 }
@@ -146,7 +152,7 @@ footer div.footer{
 
 footer h5{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
@@ -154,15 +160,31 @@ footer a{
     font-size: 12px;
 }
 
+footer a:hover{
+    text-decoration: underline;
+}
+
 div.footer p{
     padding-top: 20px;
     font-size: 12px;
 }
 
-aside > p{
-    font-size: 12px;
+aside{
+    margin: bottom;
+    align-self: flex-end;
+    padding: 20px;
 }
 
-#copyright{
-    font-size: 12px;
+aside > i{
+    background-color: var(--cor4);
+    color: var(--cor3);
+    border: 3px solid var(--cor4);
+    border-radius: 6px;
+    margin-bottom: 15px;
 }
+
+aside > p{
+    font-size: 13px;
+    padding-bottom: 45px;
+}
+

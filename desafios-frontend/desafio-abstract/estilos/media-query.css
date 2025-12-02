@@ -3,8 +3,9 @@
 @media screen and (max-width: 768px) {
     header{
         flex-flow: row nowrap;
-        height: 90px;
+        height: 100px;
         justify-content: space-between;
+        padding: 0 50px;
     }
 
     header > nav{
@@ -19,6 +20,7 @@
 
     div#searchbar{
         height: 200px;
+        box-sizing: border-box;
     }
 
     div#searchbar h1{
@@ -27,6 +29,10 @@
 
     div#searchbar input#isearch{
         min-width: 350px;
+    }
+
+    div#searchbar > form{
+        transform: translateX(3%);
     }
 
     main{
@@ -39,7 +45,7 @@
     }
 
     footer > div.footer{
-        min-width: 107px;
+        min-width: 100px;
     }
 
     footer > aside{

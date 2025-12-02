@@ -110,15 +110,15 @@ i#arrow{
 main{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: var(--cor4);
     color: var(--cor3);
-    
+    margin: 0px 80px;
 }
 
 main > article{
     padding-bottom: 50px;
-    flex-basis: 400px;
+    flex: 0 0 35%;
 }
 
 main > article > div.texto > h5{

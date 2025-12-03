@@ -49,7 +49,9 @@
     }
 
     footer > div.footer{
-        min-width: 100px;
+        min-width: 50px;
+        max-width: 80px;
+        margin: 30px 50px;
     }
 
     footer > aside{
